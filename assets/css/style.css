@@ -42,17 +42,27 @@ a {
     opacity: 0.9;
 }
 /* =================header ==================*/
-.header {
+.hero-wrap {
+    display: flex;
+    flex-direction: column;
     background-color: #E6F0FF;
     width: 100vw;
     height: 100vh;
     position: relative;
 }
 
+.fixed-header {
+    background-color: #E6F0FF;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    /* padding-top: 38px; */
+    padding: 12px 0;
 }
 
 .navbar ul {
