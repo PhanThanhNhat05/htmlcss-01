@@ -47,7 +47,7 @@ a {
     flex-direction: column;
     background-color: #E6F0FF;
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 90px);
     position: relative;
 }
 
