@@ -48,6 +48,7 @@ a {
 /* =================header ==================*/
 .hero-wrap {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     background-color: #E6F0FF;
     width: 100vw;
@@ -102,9 +103,9 @@ a {
     border-radius: 8px;
 }
 
-.hero {
+/* .hero {
     margin-top: 130px;
-}
+} */
 .hero .sub-title {
     font-weight: 500;
     font-size: 1.8rem;
